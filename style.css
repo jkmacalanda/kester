@@ -1,0 +1,65 @@
+body{
+    background-color: #d0bdf4;
+  }
+  
+  p{
+    font-family: 'Rubik', sans-serif;
+    color: #494d5f;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 50px;
+  }
+  
+  .greet-title{
+    font-family: 'Fredoka One', cursive;
+    font-size: 53px;
+    font-weight: bold;
+    color: #8458b3;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #e9dffc;
+    border-color: #8458b3;
+    color:#8458b3;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.4s,
+      box-shadow 0.4s,
+      color 0.4s;
+  }
+  
+  button:hover{
+    background-color: #8458b3;
+    color: #e9dffc;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);   
+  }
+  
+  button:active{
+    opacity: 0.8;
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+  
+  #container {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .birthday{
+    width: 300px;
+  }
+  
+  #hide{
+    display: none;
+  }
